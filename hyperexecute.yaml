@@ -28,4 +28,4 @@ testDiscovery:
   mode: dynamic
   command: find test/specs/*.ts || true
 
-testRunnerCommand: npx wdio run android.web.conf.ts
+testRunnerCommand: npx wdio android.web.conf.ts
