@@ -10,8 +10,5 @@
     "appium-uiautomator2-driver": "^4.2.3",
     "wdio-lambdatest-service": "^4.0.0",
     "wdio-wait-for": "^3.1.0"
-  },
-  "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
   }
 }
