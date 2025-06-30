@@ -26,6 +26,6 @@ pre:
 testDiscovery:
   type: raw
   mode: dynamic
-  command: find test/specs/*.ts || true
+  command: find ./test/specs/*.ts || true
 
-testRunnerCommand: npx wdio android.web.conf.ts
+testRunnerCommand: npx wdio wdio.conf.ts
